@@ -10,7 +10,7 @@ const NoComponent = () => {
     ) : (
         <div>
             <h1>Why baby? I've been good this year...</h1>
-            <img src={gifNo} alt="Valentine's gif" />
+            <img src={gifNo} alt="Valentine's gif" className="noGif"/>
             <div>
                 <button className="buttonNext" onClick={() => setShowQuestion(true)}>Okay ask me again</button>
             </div>
